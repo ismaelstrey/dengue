@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: idbigiozmnaivn
+  password:7EyqoCEYDp5OLA_Msf5vW7C3qs
+  host: ec2-54-83-20-177.compute-1.amazonaws.com
+
+development:
+  <<: *default
+  database: d58j2s6pbgo6bs
+
+# test:
+#   <<: *default
+#   database: rubysemzika_test
+
+# production:
+#   <<: *default
+#   database: rubysemzika_production
